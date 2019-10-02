@@ -1,0 +1,34 @@
+########################################################################
+# Files and definitions for Free RTOS:
+########################################################################
+
+# FreeRTOS distribution source directory:
+FreeRTOS=../Programs/FreeRTOSv9.0.0/FreeRTOS
+
+# compilation flags for gcc
+CFLAGS  = -O1 -g
+CFLAGS += -I$(FreeRTOS)/include -DGCC_ARMCM3
+CFLAGS += -I$(FreeRTOS)/Source/include 
+CFLAGS += -I$(FreeRTOS)/Source
+CFLAGS += -I$(FreeRTOS)/Source/portable/GCC/ARM_CM3
+CFLAGS += -I$(FreeRTOS)/Source/portable/MemMang
+CFLAGS += -I$(FreeRTOS)
+
+vpath %.c $(FreeRTOS)/STM32F10x_StdPeriph_Driver
+vpath %.c $(FreeRTOS)/Source/include
+vpath %.h $(FreeRTOS)/Source/include
+vpath %.c $(FreeRTOS)/Source
+vpath %.c $(FreeRTOS)/Source/portable/MemMang
+vpath %.h $(FreeRTOS)/Source/portable/GCC/ARM_CM3
+vpath %.c $(FreeRTOS)/Source/portable/GCC/ARM_CM3
+
+# object files
+OBJS += list.o 
+OBJS += tasks.o 
+OBJS += heap_1.o 
+OBJS += port.o 
+OBJS += misc.o 
+OBJS += queue.o
+
+# Free RTOS END #####################################################
+

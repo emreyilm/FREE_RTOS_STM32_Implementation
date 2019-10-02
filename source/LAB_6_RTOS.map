@@ -1,0 +1,901 @@
+Archive member included because of file (symbol)
+
+d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
+                              LAB_06_RTOS_Semaphore.o (__aeabi_i2f)
+d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
+                              LAB_06_RTOS_Semaphore.o (__aeabi_fdiv)
+d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
+                              LAB_06_RTOS_Semaphore.o (__aeabi_fcmpeq)
+d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-exit.o)
+                              d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (exit)
+d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+                              d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-exit.o) (_global_impure_ptr)
+d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memcpy.o)
+                              queue.o (memcpy)
+d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memset.o)
+                              d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (memset)
+d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
+                              d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-exit.o) (__call_exitprocs)
+d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atexit.o)
+                              d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o) (atexit)
+d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fini.o)
+                              d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__atexit.o)
+                              d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atexit.o) (__register_exitproc)
+
+Allocating common symbols
+Common symbol       size              file
+
+Semaphore1          0x4               LAB_06_RTOS_Semaphore.o
+xQueueRegistry      0x50              queue.o
+T2_handle           0x4               LAB_06_RTOS_Semaphore.o
+T1_handle           0x4               LAB_06_RTOS_Semaphore.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x20000000         0x00002000         xrw
+FLASH            0x08000000         0x00020000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+LOAD d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+LOAD d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+LOAD LAB_06_RTOS_Semaphore.o
+LOAD startup_stm32f10x.o
+LOAD system_stm32f10x.o
+LOAD stm32f10x_gpio.o
+LOAD stm32f10x_rcc.o
+LOAD stm32f10x_tim.o
+LOAD list.o
+LOAD tasks.o
+LOAD heap_1.o
+LOAD port.o
+LOAD misc.o
+LOAD queue.o
+START GROUP
+LOAD d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a
+LOAD d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a
+END GROUP
+LOAD d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+LOAD d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+                0x00000100                _Minimum_Stack_Size = 0x100
+                0x20000000                __ram_start__ = ORIGIN (RAM)
+                0x00002000                __ram_size__ = 0x2000
+                0x20002000                __ram_end__ = (__ram_start__ + __ram_size__)
+                0x20002000                _estack = __ram_end__
+                0x20001f00                PROVIDE (_Stack_Limit, (_estack - _Minimum_Stack_Size))
+
+.text           0x08000000     0x78a8
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x1d0 startup_stm32f10x.o
+                0x08000000                g_pfnVectors
+ *(.text)
+ .text          0x080001d0        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+ .text          0x080001d0       0x5c d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+ .text          0x0800022c       0x74 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+                0x0800022c                _start
+                0x0800022c                _mainCRTStartup
+ .text          0x080002a0      0x23c LAB_06_RTOS_Semaphore.o
+                0x080002a0                doManyOperations1
+                0x080003c8                IOinit
+                0x08000434                main
+                0x080004d8                assert_failed
+ .text          0x080004dc       0x78 startup_stm32f10x.o
+                0x080004dc                EXTI2_IRQHandler
+                0x080004dc                DebugMon_Handler
+                0x080004dc                TIM1_CC_IRQHandler
+                0x080004dc                HardFault_Handler
+                0x080004dc                PVD_IRQHandler
+                0x080004dc                NMI_Handler
+                0x080004dc                EXTI3_IRQHandler
+                0x080004dc                EXTI0_IRQHandler
+                0x080004dc                I2C2_EV_IRQHandler
+                0x080004dc                TIM1_UP_TIM16_IRQHandler
+                0x080004dc                UsageFault_Handler
+                0x080004dc                SPI1_IRQHandler
+                0x080004dc                TIM6_DAC_IRQHandler
+                0x080004dc                DMA2_Channel3_IRQHandler
+                0x080004dc                default_handler
+                0x080004dc                DMA2_Channel2_IRQHandler
+                0x080004dc                DMA1_Channel4_IRQHandler
+                0x080004dc                ADC1_IRQHandler
+                0x080004dc                USART3_IRQHandler
+                0x080004dc                DMA1_Channel7_IRQHandler
+                0x080004dc                I2C1_ER_IRQHandler
+                0x080004dc                UART5_IRQHandler
+                0x080004dc                ADC3_IRQHandler
+                0x080004dc                TIM4_IRQHandler
+                0x080004dc                DMA2_Channel1_IRQHandler
+                0x080004dc                I2C1_EV_IRQHandler
+                0x080004dc                DMA1_Channel6_IRQHandler
+                0x080004dc                UART4_IRQHandler
+                0x080004dc                TIM3_IRQHandler
+                0x080004dc                RCC_IRQHandler
+                0x080004dc                DMA1_Channel1_IRQHandler
+                0x080004dc                CEC_IRQHandler
+                0x080004dc                EXTI15_10_IRQHandler
+                0x080004dc                TIM14_IRQHandler
+                0x080004dc                TIM13_IRQHandler
+                0x080004dc                TIM12_IRQHandler
+                0x080004dc                TIM7_IRQHandler
+                0x080004dc                TIM5_IRQHandler
+                0x080004dc                EXTI9_5_IRQHandler
+                0x080004dc                TAMPER_STAMP_IRQHandler
+                0x080004dc                RTC_WKUP_IRQHandler
+                0x080004dc                SPI2_IRQHandler
+                0x080004dc                DMA2_Channel5_IRQHandler
+                0x080004dc                DMA1_Channel5_IRQHandler
+                0x080004dc                EXTI4_IRQHandler
+                0x080004dc                TIM1_TRG_COM_TIM17_IRQHandler
+                0x080004dc                DMA1_Channel3_IRQHandler
+                0x080004dc                FSMC_IRQHandler
+                0x080004dc                WWDG_IRQHandler
+                0x080004dc                TIM2_IRQHandler
+                0x080004dc                EXTI1_IRQHandler
+                0x080004dc                RTCAlarm_IRQHandler
+                0x080004dc                DMA2_Channel4_5_IRQHandler
+                0x080004dc                USART2_IRQHandler
+                0x080004dc                I2C2_ER_IRQHandler
+                0x080004dc                DMA1_Channel2_IRQHandler
+                0x080004dc                MemMange_Handler
+                0x080004dc                FLASH_IRQHandler
+                0x080004dc                BusFault_Handler
+                0x080004dc                USART1_IRQHandler
+                0x080004dc                SPI3_IRQHandler
+                0x080004dc                TIM1_BRK_TIM15_IRQHandler
+                0x080004e0                __libc_init_array
+                0x080004e4                Reset_Handler
+ .text          0x08000554      0x168 system_stm32f10x.o
+                0x08000554                SystemInit
+                0x08000634                SystemCoreClockUpdate
+ .text          0x080006bc      0x940 stm32f10x_gpio.o
+                0x080006bc                GPIO_DeInit
+                0x08000788                GPIO_AFIODeInit
+                0x0800079c                GPIO_Init
+                0x080008e8                GPIO_StructInit
+                0x080008f8                GPIO_ReadInputDataBit
+                0x080009ac                GPIO_ReadInputData
+                0x08000a00                GPIO_ReadOutputDataBit
+                0x08000ab4                GPIO_ReadOutputData
+                0x08000b08                GPIO_SetBits
+                0x08000b68                GPIO_ResetBits
+                0x08000bc8                GPIO_WriteBit
+                0x08000c8c                GPIO_Write
+                0x08000ce0                GPIO_PinLockConfig
+                0x08000d4c                GPIO_EventOutputConfig
+                0x08000d8c                GPIO_EventOutputCmd
+                0x08000dac                GPIO_PinRemapConfig
+                0x08000f8c                GPIO_EXTILineConfig
+                0x08000fdc                GPIO_ETH_MediaInterfaceConfig
+ .text          0x08000ffc      0x7d4 stm32f10x_rcc.o
+                0x08000ffc                RCC_DeInit
+                0x08001040                RCC_HSEConfig
+                0x080010dc                RCC_AdjustHSICalibrationValue
+                0x08001108                RCC_HSICmd
+                0x08001128                RCC_PLLConfig
+                0x08001190                RCC_PLLCmd
+                0x080011b0                RCC_PREDIV1Config
+                0x080011ec                RCC_SYSCLKConfig
+                0x08001214                RCC_GetSYSCLKSource
+                0x08001224                RCC_HCLKConfig
+                0x0800126c                RCC_PCLK1Config
+                0x080012a8                RCC_PCLK2Config
+                0x080012e4                RCC_ITConfig
+                0x0800132c                RCC_USBCLKConfig
+                0x0800134c                RCC_ADCCLKConfig
+                0x0800137c                RCC_LSEConfig
+                0x080013c8                RCC_LSICmd
+                0x080013e8                RCC_RTCCLKConfig
+                0x08001418                RCC_RTCCLKCmd
+                0x08001438                RCC_GetClocksFreq
+                0x080014ec                RCC_AHBPeriphClockCmd
+                0x08001538                RCC_APB2PeriphClockCmd
+                0x08001584                RCC_APB1PeriphClockCmd
+                0x080015d0                RCC_APB2PeriphResetCmd
+                0x0800161c                RCC_APB1PeriphResetCmd
+                0x08001668                RCC_BackupResetCmd
+                0x08001688                RCC_ClockSecuritySystemCmd
+                0x080016a8                RCC_MCOConfig
+                0x080016d0                RCC_GetFlagStatus
+                0x0800172c                RCC_WaitForHSEStartUp
+                0x08001760                RCC_ClearFlag
+                0x08001770                RCC_GetITStatus
+                0x080017ac                RCC_ClearITPendingBit
+ .text          0x080017d0     0x3b20 stm32f10x_tim.o
+                0x080018bc                TIM_DeInit
+                0x08001ab8                TIM_TimeBaseInit
+                0x08001c24                TIM_OC1Init
+                0x08001dcc                TIM_OC2Init
+                0x08001f44                TIM_OC3Init
+                0x080020a0                TIM_OC4Init
+                0x080021a4                TIM_BDTRConfig
+                0x08002284                TIM_TimeBaseStructInit
+                0x08002298                TIM_OCStructInit
+                0x080022ac                TIM_ICStructInit
+                0x080022bc                TIM_BDTRStructInit
+                0x080022d0                TIM_Cmd
+                0x08002398                TIM_CtrlPWMOutputs
+                0x08002408                TIM_ITConfig
+                0x080024e0                TIM_GenerateEvent
+                0x08002594                TIM_DMAConfig
+                0x0800264c                TIM_DMACmd
+                0x080026f4                TIM_InternalClockConfig
+                0x0800275c                TIM_ETRConfig
+                0x080027ec                TIM_ETRClockMode1Config
+                0x08002888                TIM_ETRClockMode2Config
+                0x08002920                TIM_PrescalerConfig
+                0x080029d4                TIM_CounterModeConfig
+                0x08002a48                TIM_SelectInputTrigger
+                0x08002ad4                TIM_ITRxExternalClockConfig
+                0x08002b5c                TIM_TIxExternalClockConfig
+                0x08002c28                TIM_EncoderInterfaceConfig
+                0x08002ce8                TIM_ForcedOC1Config
+                0x08002d98                TIM_ForcedOC2Config
+                0x08002e1c                TIM_ForcedOC3Config
+                0x08002e84                TIM_ForcedOC4Config
+                0x08002ef0                TIM_ARRPreloadConfig
+                0x08002fb8                TIM_SelectCOM
+                0x08003020                TIM_SelectCCDMA
+                0x080030a8                TIM_CCPreloadControl
+                0x08003120                TIM_OC1PreloadConfig
+                0x080031d0                TIM_OC2PreloadConfig
+                0x08003254                TIM_OC3PreloadConfig
+                0x080032bc                TIM_OC4PreloadConfig
+                0x08003328                TIM_OC1FastConfig
+                0x080033d8                TIM_OC2FastConfig
+                0x0800345c                TIM_OC3FastConfig
+                0x080034c4                TIM_OC4FastConfig
+                0x08003530                TIM_ClearOC1Ref
+                0x08003598                TIM_ClearOC2Ref
+                0x08003600                TIM_ClearOC3Ref
+                0x08003668                TIM_ClearOC4Ref
+                0x080036d0                TIM_OC1PolarityConfig
+                0x08003780                TIM_OC1NPolarityConfig
+                0x080037e0                TIM_OC2PolarityConfig
+                0x08003864                TIM_OC2NPolarityConfig
+                0x080038b0                TIM_OC3PolarityConfig
+                0x0800391c                TIM_OC3NPolarityConfig
+                0x08003968                TIM_OC4PolarityConfig
+                0x080039d4                TIM_CCxCmd
+                0x08003aa4                TIM_CCxNCmd
+                0x08003b28                TIM_SelectOCxM
+                0x08003cac                TIM_UpdateDisableConfig
+                0x08003d74                TIM_UpdateRequestConfig
+                0x08003e3c                TIM_SelectHallSensor
+                0x08003ec4                TIM_SelectOnePulseMode
+                0x08003f88                TIM_SelectOutputTrigger
+                0x08004028                TIM_SelectSlaveMode
+                0x080040ac                TIM_SelectMasterSlaveMode
+                0x08004130                TIM_SetCounter
+                0x080041d0                TIM_SetAutoreload
+                0x08004270                TIM_SetCompare1
+                0x08004300                TIM_SetCompare2
+                0x08004360                TIM_SetCompare3
+                0x080043a8                TIM_SetCompare4
+                0x080043f4                TIM_SetIC1Prescaler
+                0x080044ac                TIM_SetIC2Prescaler
+                0x08004538                TIM_PWMIConfig
+                0x080045f8                TIM_SetIC3Prescaler
+                0x08004668                TIM_SetIC4Prescaler
+                0x080046dc                TIM_ICInit
+                0x08004c34                TIM_SetClockDivision
+                0x08004cf0                TIM_GetCapture1
+                0x08004d80                TIM_GetCapture2
+                0x08004de0                TIM_GetCapture3
+                0x08004e28                TIM_GetCapture4
+                0x08004e74                TIM_GetCounter
+                0x08004f14                TIM_GetPrescaler
+                0x08004fb4                TIM_GetFlagStatus
+                0x080050a0                TIM_ClearFlag
+                0x08005158                TIM_GetITStatus
+                0x08005238                TIM_ClearITPendingBit
+ .text          0x080052f0       0x90 list.o
+                0x080052f0                vListInitialise
+                0x08005308                vListInitialiseItem
+                0x08005310                vListInsertEnd
+                0x08005328                vListInsert
+                0x0800535c                uxListRemove
+ .text          0x08005380      0xf6c tasks.o
+                0x08005424                xTaskCreate
+                0x080055c0                vTaskDelete
+                0x08005654                uxTaskPriorityGet
+                0x08005670                uxTaskPriorityGetFromISR
+                0x08005698                vTaskPrioritySet
+                0x08005754                vTaskResume
+                0x080057c8                xTaskResumeFromISR
+                0x08005854                vTaskStartScheduler
+                0x080058ac                vTaskEndScheduler
+                0x080058d0                vTaskSuspendAll
+                0x080058e4                xTaskGetTickCount
+                0x080058f0                xTaskGetTickCountFromISR
+                0x080058fc                uxTaskGetNumberOfTasks
+                0x08005908                pcTaskGetName
+                0x0800591c                xTaskIncrementTick
+                0x080059ec                xTaskResumeAll
+                0x08005ac0                vTaskDelayUntil
+                0x08005b20                vTaskDelay
+                0x08005bbc                vTaskSwitchContext
+                0x08005c48                vTaskSuspend
+                0x08005ccc                vTaskPlaceOnEventList
+                0x08005ce8                vTaskPlaceOnUnorderedEventList
+                0x08005d0c                xTaskRemoveFromEventList
+                0x08005d7c                xTaskRemoveFromUnorderedEventList
+                0x08005dd4                vTaskSetTimeOutState
+                0x08005de8                xTaskCheckForTimeOut
+                0x08005e40                vTaskMissedYield
+                0x08005e50                xTaskGetCurrentTaskHandle
+                0x08005e5c                xTaskGetSchedulerState
+                0x08005e7c                vTaskPriorityInherit
+                0x08005ef8                xTaskPriorityDisinherit
+                0x08005f5c                uxTaskResetEventItemValue
+                0x08005f74                pvTaskIncrementMutexHeldCount
+                0x08005f90                ulTaskNotifyTake
+                0x08006004                xTaskNotifyWait
+                0x0800609c                xTaskGenericNotify
+                0x08006150                xTaskGenericNotifyFromISR
+                0x08006220                vTaskNotifyGiveFromISR
+                0x080062bc                xTaskNotifyStateClear
+ .text          0x080062ec       0x88 heap_1.o
+                0x080062ec                pvPortMalloc
+                0x0800634c                vPortFree
+                0x08006350                vPortInitialiseBlocks
+                0x08006360                xPortGetFreeHeapSize
+ *fill*         0x08006374        0xc 
+ .text          0x08006380      0x178 port.o
+                0x080063b0                pxPortInitialiseStack
+                0x080063d4                SVC_Handler
+                0x08006404                vPortEndScheduler
+                0x08006408                vPortEnterCritical
+                0x08006428                vPortExitCritical
+                0x0800643c                PendSV_Handler
+                0x08006484                SysTick_Handler
+                0x080064b0                vPortSetupTimerInterrupt
+                0x080064c4                xPortStartScheduler
+ .text          0x080064f8      0x194 misc.o
+                0x080064f8                NVIC_PriorityGroupConfig
+                0x08006534                NVIC_Init
+                0x080065cc                NVIC_SetVectorTable
+                0x08006610                NVIC_SystemLPConfig
+                0x08006658                SysTick_CLKSourceConfig
+ .text          0x0800668c      0x730 queue.o
+                0x080067a8                xQueueGenericReset
+                0x08006814                xQueueGenericCreate
+                0x08006858                xQueueGenericSend
+                0x08006978                xQueueCreateMutex
+                0x0800699c                xQueueGiveMutexRecursive
+                0x080069cc                xQueueGenericSendFromISR
+                0x08006a3c                xQueueGiveFromISR
+                0x08006aa0                xQueueGenericReceive
+                0x08006bf0                xQueueTakeMutexRecursive
+                0x08006c24                xQueueReceiveFromISR
+                0x08006c98                xQueuePeekFromISR
+                0x08006cc8                uxQueueMessagesWaiting
+                0x08006cdc                uxQueueSpacesAvailable
+                0x08006cf4                uxQueueMessagesWaitingFromISR
+                0x08006cf8                xQueueIsQueueEmptyFromISR
+                0x08006d04                xQueueIsQueueFullFromISR
+                0x08006d14                vQueueAddToRegistry
+                0x08006d48                pcQueueGetName
+                0x08006d78                vQueueUnregisterQueue
+                0x08006dac                vQueueDelete
+ .text          0x08006dbc      0x21c d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
+                0x08006dbc                __aeabi_frsub
+                0x08006dc4                __subsf3
+                0x08006dc4                __aeabi_fsub
+                0x08006dc8                __aeabi_fadd
+                0x08006dc8                __addsf3
+                0x08006f28                __aeabi_ui2f
+                0x08006f28                __floatunsisf
+                0x08006f30                __aeabi_i2f
+                0x08006f30                __floatsisf
+                0x08006f4c                __aeabi_ul2f
+                0x08006f4c                __floatundisf
+                0x08006f5c                __aeabi_l2f
+                0x08006f5c                __floatdisf
+ .text          0x08006fd8      0x2a0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
+                0x08006fd8                __mulsf3
+                0x08006fd8                __aeabi_fmul
+                0x08007140                __aeabi_fdiv
+                0x08007140                __divsf3
+ .text          0x08007278       0xec d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
+                0x08007278                __gesf2
+                0x08007278                __gtsf2
+                0x08007280                __lesf2
+                0x08007280                __ltsf2
+                0x08007288                __nesf2
+                0x08007288                __eqsf2
+                0x08007288                __cmpsf2
+                0x080072e8                __aeabi_cfrcmple
+                0x080072f0                __aeabi_cfcmpeq
+                0x080072f0                __aeabi_cfcmple
+                0x08007300                __aeabi_fcmpeq
+                0x08007314                __aeabi_fcmplt
+                0x08007328                __aeabi_fcmple
+                0x0800733c                __aeabi_fcmpge
+                0x08007350                __aeabi_fcmpgt
+ .text          0x08007364        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-exit.o)
+ .text          0x08007364        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+ .text          0x08007364       0xec d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memcpy.o)
+                0x08007364                memcpy
+ .text          0x08007450        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memset.o)
+ .text          0x08007450        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
+ .text          0x08007450        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atexit.o)
+ .text          0x08007450        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fini.o)
+ .text          0x08007450        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__atexit.o)
+ .text          0x08007450        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+ .text          0x08007450        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+ *(.text.*)
+ .text.exit     0x08007450       0x20 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-exit.o)
+                0x08007450                exit
+ .text.memset   0x08007470       0x9c d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memset.o)
+                0x08007470                memset
+ .text.startup.register_fini
+                0x0800750c       0x14 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x08007520       0xd4 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
+                0x08007520                __call_exitprocs
+ .text.atexit   0x080075f4        0xc d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atexit.o)
+                0x080075f4                atexit
+ .text.__libc_fini_array
+                0x08007600       0x2c d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fini.o)
+                0x08007600                __libc_fini_array
+ .text.__register_exitproc
+                0x0800762c       0xa4 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__atexit.o)
+                0x0800762c                __register_exitproc
+ .text.__register_exitproc.__stub
+                0x080076d0       0x10 linker stubs
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.str1.4
+                0x080076e0        0xe LAB_06_RTOS_Semaphore.o
+ *fill*         0x080076ee        0x2 
+ .rodata.str1.4
+                0x080076f0       0x6b stm32f10x_gpio.o
+ *fill*         0x0800775b        0x1 
+ .rodata.str1.4
+                0x0800775c       0x6a stm32f10x_rcc.o
+ *fill*         0x080077c6        0x2 
+ .rodata.str1.4
+                0x080077c8       0x6a stm32f10x_tim.o
+ *fill*         0x08007832        0x2 
+ .rodata.str1.4
+                0x08007834        0x5 tasks.o
+ *fill*         0x08007839        0x3 
+ .rodata.str1.4
+                0x0800783c       0x61 misc.o
+ *fill*         0x0800789d        0x3 
+ .rodata.str1.4
+                0x080078a0        0x4 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+                                  0x2 (size before relaxing)
+ .rodata._global_impure_ptr
+                0x080078a4        0x4 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+                0x080078a4                _global_impure_ptr
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000        0x0 linker stubs
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x080078a8        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+
+.init           0x080078a8        0xc
+ .init          0x080078a8        0x4 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+                0x080078a8                _init
+ .init          0x080078ac        0x8 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+
+.fini           0x080078b4        0xc
+ .fini          0x080078b4        0x4 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+                0x080078b4                _fini
+ .fini          0x080078b8        0x8 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+
+.iplt           0x080078c0        0x0
+ .iplt          0x00000000        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+
+.eh_frame       0x080078c0        0x4
+ .eh_frame      0x080078c0        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+ .eh_frame      0x080078c0        0x4 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x080078c4                __exidx_start = .
+
+.ARM.exidx      0x080078c4        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x080078c4        0x8 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+                0x080078cc                __exidx_end = .
+
+.rel.dyn        0x080078cc        0x0
+ .rel.iplt      0x00000000        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+                0x080078cc                . = ALIGN (0x4)
+                0x080078cc                _etext = .
+                0x080078cc                _sidata = _etext
+
+.data           0x20000000      0x45c load address 0x080078cc
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ .data          0x20000000        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+ .data          0x20000000        0x4 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+                0x20000000                __dso_handle
+ .data          0x20000004        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .data          0x20000004        0x0 LAB_06_RTOS_Semaphore.o
+ .data          0x20000004        0x0 startup_stm32f10x.o
+ .data          0x20000004       0x14 system_stm32f10x.o
+                0x20000004                SystemCoreClock
+                0x20000008                AHBPrescTable
+ .data          0x20000018        0x0 stm32f10x_gpio.o
+ .data          0x20000018       0x14 stm32f10x_rcc.o
+ .data          0x2000002c        0x0 stm32f10x_tim.o
+ .data          0x2000002c        0x0 list.o
+ .data          0x2000002c        0x0 tasks.o
+ .data          0x2000002c        0x0 heap_1.o
+ .data          0x2000002c        0x4 port.o
+ .data          0x20000030        0x0 misc.o
+ .data          0x20000030        0x0 queue.o
+ .data          0x20000030        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
+ .data          0x20000030        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
+ .data          0x20000030        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
+ .data          0x20000030        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-exit.o)
+ .data          0x20000030        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+ .data          0x20000030        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memcpy.o)
+ .data          0x20000030        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memset.o)
+ .data          0x20000030        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
+ .data          0x20000030        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atexit.o)
+ .data          0x20000030        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fini.o)
+ .data          0x20000030        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__atexit.o)
+ .data          0x20000030        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+ .data          0x20000030        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+ *(.data.*)
+ .data.impure_data
+                0x20000030      0x428 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x20000458        0x4 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+                0x20000458                _impure_ptr
+                0x2000045c                . = ALIGN (0x4)
+                0x2000045c                _edata = .
+
+.init_array     0x2000045c        0x4 load address 0x08007d28
+ .init_array    0x2000045c        0x4 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+
+.fini_array     0x20000460        0x4 load address 0x08007d2c
+ .fini_array    0x20000460        0x4 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+
+.jcr            0x20000464        0x4 load address 0x08007d30
+ .jcr           0x20000464        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+ .jcr           0x20000464        0x4 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+
+.igot.plt       0x20000468        0x0 load address 0x08007d34
+ .igot.plt      0x00000000        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+
+.init_array.00000
+                0x20000468        0x4 load address 0x08007d34
+ .init_array.00000
+                0x20000468        0x4 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
+
+.bss            0x2000046c     0x1584 load address 0x08007d38
+                0x2000046c                . = ALIGN (0x4)
+                0x2000046c                _sbss = .
+                0x2000046c                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x2000046c        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+ .bss           0x2000046c       0x1c d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+ .bss           0x20000488        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .bss           0x20000488        0x0 LAB_06_RTOS_Semaphore.o
+ .bss           0x20000488        0x0 startup_stm32f10x.o
+ .bss           0x20000488        0x0 system_stm32f10x.o
+ .bss           0x20000488        0x0 stm32f10x_gpio.o
+ .bss           0x20000488        0x0 stm32f10x_rcc.o
+ .bss           0x20000488        0x0 stm32f10x_tim.o
+ .bss           0x20000488        0x0 list.o
+ .bss           0x20000488      0x104 tasks.o
+                0x200004bc                pxCurrentTCB
+ .bss           0x2000058c     0x1408 heap_1.o
+ .bss           0x20001994        0x0 port.o
+ .bss           0x20001994        0x0 misc.o
+ .bss           0x20001994        0x0 queue.o
+ .bss           0x20001994        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
+ .bss           0x20001994        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
+ .bss           0x20001994        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
+ .bss           0x20001994        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-exit.o)
+ .bss           0x20001994        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+ .bss           0x20001994        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memcpy.o)
+ .bss           0x20001994        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memset.o)
+ .bss           0x20001994        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
+ .bss           0x20001994        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atexit.o)
+ .bss           0x20001994        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fini.o)
+ .bss           0x20001994        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__atexit.o)
+ .bss           0x20001994        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+ .bss           0x20001994        0x0 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+ *(.bss.*)
+ *(COMMON)
+ COMMON         0x20001994        0xc LAB_06_RTOS_Semaphore.o
+                0x20001994                Semaphore1
+                0x20001998                T2_handle
+                0x2000199c                T1_handle
+ COMMON         0x200019a0       0x50 queue.o
+                0x200019a0                xQueueRegistry
+                0x200019f0                . = ALIGN (0x4)
+                0x200019f0                _ebss = .
+                0x200019f0                __bss_end__ = _ebss
+                0x200019f0                PROVIDE (end, _ebss)
+                0x200019f0                PROVIDE (_end, _ebss)
+                0x200019f0                PROVIDE (_exit, _ebss)
+                0x20001f00                PROVIDE (_stackend, ((ORIGIN (RAM) + 0x2000) - _Minimum_Stack_Size))
+
+._usrstack      0x200019f0      0x100 load address 0x080092bc
+                0x200019f0                . = ALIGN (0x4)
+                0x200019f0                _susrstack = .
+                0x20001af0                . = (. + _Minimum_Stack_Size)
+ *fill*         0x200019f0      0x100 
+                0x20001af0                . = ALIGN (0x4)
+                0x20001af0                _eusrstack = .
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x70
+ *(.comment)
+ .comment       0x00000000       0x70 LAB_06_RTOS_Semaphore.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 startup_stm32f10x.o
+ .comment       0x00000000       0x71 system_stm32f10x.o
+ .comment       0x00000000       0x71 stm32f10x_gpio.o
+ .comment       0x00000000       0x71 stm32f10x_rcc.o
+ .comment       0x00000000       0x71 stm32f10x_tim.o
+ .comment       0x00000000       0x71 list.o
+ .comment       0x00000000       0x71 tasks.o
+ .comment       0x00000000       0x71 heap_1.o
+ .comment       0x00000000       0x71 port.o
+ .comment       0x00000000       0x71 misc.o
+ .comment       0x00000000       0x71 queue.o
+
+.ARM.attributes
+                0x00000000       0x29
+ .ARM.attributes
+                0x00000000       0x1d d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+ .ARM.attributes
+                0x0000001d       0x2d d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x33 LAB_06_RTOS_Semaphore.o
+ .ARM.attributes
+                0x00000098       0x33 startup_stm32f10x.o
+ .ARM.attributes
+                0x000000cb       0x33 system_stm32f10x.o
+ .ARM.attributes
+                0x000000fe       0x33 stm32f10x_gpio.o
+ .ARM.attributes
+                0x00000131       0x33 stm32f10x_rcc.o
+ .ARM.attributes
+                0x00000164       0x33 stm32f10x_tim.o
+ .ARM.attributes
+                0x00000197       0x33 list.o
+ .ARM.attributes
+                0x000001ca       0x33 tasks.o
+ .ARM.attributes
+                0x000001fd       0x33 heap_1.o
+ .ARM.attributes
+                0x00000230       0x33 port.o
+ .ARM.attributes
+                0x00000263       0x33 misc.o
+ .ARM.attributes
+                0x00000296       0x33 queue.o
+ .ARM.attributes
+                0x000002c9       0x1d d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x000002e6       0x1d d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x00000303       0x1d d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x00000320       0x2d d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000034d       0x2d d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000037a       0x1b d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000395       0x2d d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000003c2       0x2d d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x000003ef       0x2d d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x0000041c       0x2d d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000449       0x2d d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000476       0x2d d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+ .ARM.attributes
+                0x000004a3       0x1d d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x180
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 LAB_06_RTOS_Semaphore.o
+ .debug_aranges
+                0x00000020       0x20 startup_stm32f10x.o
+ .debug_aranges
+                0x00000040       0x20 system_stm32f10x.o
+ .debug_aranges
+                0x00000060       0x20 stm32f10x_gpio.o
+ .debug_aranges
+                0x00000080       0x20 stm32f10x_rcc.o
+ .debug_aranges
+                0x000000a0       0x20 stm32f10x_tim.o
+ .debug_aranges
+                0x000000c0       0x20 list.o
+ .debug_aranges
+                0x000000e0       0x20 tasks.o
+ .debug_aranges
+                0x00000100       0x20 heap_1.o
+ .debug_aranges
+                0x00000120       0x20 port.o
+ .debug_aranges
+                0x00000140       0x20 misc.o
+ .debug_aranges
+                0x00000160       0x20 queue.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xa596
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xd55 LAB_06_RTOS_Semaphore.o
+ .debug_info    0x00000d55      0x171 startup_stm32f10x.o
+ .debug_info    0x00000ec6      0x402 system_stm32f10x.o
+ .debug_info    0x000012c8      0xbe2 stm32f10x_gpio.o
+ .debug_info    0x00001eaa      0xd22 stm32f10x_rcc.o
+ .debug_info    0x00002bcc     0x3999 stm32f10x_tim.o
+ .debug_info    0x00006565      0x29a list.o
+ .debug_info    0x000067ff     0x1da5 tasks.o
+ .debug_info    0x000085a4      0x1ae heap_1.o
+ .debug_info    0x00008752      0x2f4 port.o
+ .debug_info    0x00008a46      0x600 misc.o
+ .debug_info    0x00009046     0x1550 queue.o
+
+.debug_abbrev   0x00000000     0x17fe
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x316 LAB_06_RTOS_Semaphore.o
+ .debug_abbrev  0x00000316       0xfd startup_stm32f10x.o
+ .debug_abbrev  0x00000413      0x199 system_stm32f10x.o
+ .debug_abbrev  0x000005ac      0x1f4 stm32f10x_gpio.o
+ .debug_abbrev  0x000007a0      0x1fa stm32f10x_rcc.o
+ .debug_abbrev  0x0000099a      0x24f stm32f10x_tim.o
+ .debug_abbrev  0x00000be9       0xdc list.o
+ .debug_abbrev  0x00000cc5      0x36c tasks.o
+ .debug_abbrev  0x00001031      0x12c heap_1.o
+ .debug_abbrev  0x0000115d      0x1df port.o
+ .debug_abbrev  0x0000133c      0x192 misc.o
+ .debug_abbrev  0x000014ce      0x330 queue.o
+
+.debug_line     0x00000000     0x45fc
+ *(.debug_line)
+ .debug_line    0x00000000      0x383 LAB_06_RTOS_Semaphore.o
+ .debug_line    0x00000383      0x130 startup_stm32f10x.o
+ .debug_line    0x000004b3      0x1f9 system_stm32f10x.o
+ .debug_line    0x000006ac      0x735 stm32f10x_gpio.o
+ .debug_line    0x00000de1      0x595 stm32f10x_rcc.o
+ .debug_line    0x00001376     0x1e7f stm32f10x_tim.o
+ .debug_line    0x000031f5      0x1d2 list.o
+ .debug_line    0x000033c7      0x667 tasks.o
+ .debug_line    0x00003a2e      0x228 heap_1.o
+ .debug_line    0x00003c56      0x234 port.o
+ .debug_line    0x00003e8a      0x30a misc.o
+ .debug_line    0x00004194      0x468 queue.o
+
+.debug_frame    0x00000000     0x1a34
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xc4 LAB_06_RTOS_Semaphore.o
+ .debug_frame   0x000000c4       0x48 startup_stm32f10x.o
+ .debug_frame   0x0000010c       0x38 system_stm32f10x.o
+ .debug_frame   0x00000144      0x1e8 stm32f10x_gpio.o
+ .debug_frame   0x0000032c      0x340 stm32f10x_rcc.o
+ .debug_frame   0x0000066c      0x9a8 stm32f10x_tim.o
+ .debug_frame   0x00001014       0x6c list.o
+ .debug_frame   0x00001080      0x450 tasks.o
+ .debug_frame   0x000014d0       0x5c heap_1.o
+ .debug_frame   0x0000152c       0xd0 port.o
+ .debug_frame   0x000015fc       0x90 misc.o
+ .debug_frame   0x0000168c      0x274 queue.o
+ .debug_frame   0x00001900       0x28 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-exit.o)
+ .debug_frame   0x00001928       0x34 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memset.o)
+ .debug_frame   0x0000195c       0x50 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x000019ac       0x20 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atexit.o)
+ .debug_frame   0x000019cc       0x34 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fini.o)
+ .debug_frame   0x00001a00       0x34 d:/me407/programs/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__atexit.o)
+
+.debug_str      0x00000000     0x2f06
+ *(.debug_str)
+ .debug_str     0x00000000      0x7e5 LAB_06_RTOS_Semaphore.o
+                                0x851 (size before relaxing)
+ .debug_str     0x000007e5       0x7e startup_stm32f10x.o
+                                0x199 (size before relaxing)
+ .debug_str     0x00000863      0x123 system_stm32f10x.o
+                                0x2e6 (size before relaxing)
+ .debug_str     0x00000986      0x275 stm32f10x_gpio.o
+                                0x549 (size before relaxing)
+ .debug_str     0x00000bfb      0x418 stm32f10x_rcc.o
+                                0x686 (size before relaxing)
+ .debug_str     0x00001013      0xbd6 stm32f10x_tim.o
+                                0xe24 (size before relaxing)
+ .debug_str     0x00001be9      0x14f list.o
+                                0x293 (size before relaxing)
+ .debug_str     0x00001d38      0xaad tasks.o
+                                0xd84 (size before relaxing)
+ .debug_str     0x000027e5       0xa9 heap_1.o
+                                0x225 (size before relaxing)
+ .debug_str     0x0000288e       0xcb port.o
+                                0x2eb (size before relaxing)
+ .debug_str     0x00002959      0x18c misc.o
+                                0x3d1 (size before relaxing)
+ .debug_str     0x00002ae5      0x421 queue.o
+                                0x8ac (size before relaxing)
+
+.debug_loc      0x00000000     0x7146
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x107 LAB_06_RTOS_Semaphore.o
+ .debug_loc     0x00000107       0x3e startup_stm32f10x.o
+ .debug_loc     0x00000145      0x124 system_stm32f10x.o
+ .debug_loc     0x00000269      0x8cc stm32f10x_gpio.o
+ .debug_loc     0x00000b35      0xa49 stm32f10x_rcc.o
+ .debug_loc     0x0000157e     0x32b8 stm32f10x_tim.o
+ .debug_loc     0x00004836       0x65 list.o
+ .debug_loc     0x0000489b     0x14ba tasks.o
+ .debug_loc     0x00005d55       0xa8 heap_1.o
+ .debug_loc     0x00005dfd       0x94 port.o
+ .debug_loc     0x00005e91      0x1f1 misc.o
+ .debug_loc     0x00006082     0x10c4 queue.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(LAB_6_RTOS.elf elf32-littlearm)
+
+.debug_ranges   0x00000000      0x170
+ .debug_ranges  0x00000000       0x80 stm32f10x_tim.o
+ .debug_ranges  0x00000080       0x78 tasks.o
+ .debug_ranges  0x000000f8       0x78 queue.o
