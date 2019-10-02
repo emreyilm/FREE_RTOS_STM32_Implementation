@@ -19,7 +19,7 @@ T2: Period (P1) = 3500 msec, Priority (p2) = 2, Execution Amount (e2) = 100,000
 
 4- It is desired to demonstrate a deadlock. Two semaphores and two tasks are prepared. (See the source code Lab6_RTOS_Deadlock.c).
 
-Task parameters are given as following:
+The task parameters:
 
 T1: Period (P1) = 1500 msec, Priority (p1) = 3, Execution Amount (e1) = 30,000
 
